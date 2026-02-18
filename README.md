@@ -20,8 +20,8 @@ pip install -r requirements.txt
 
 2. Run the Streamlit app locally:
 ```bash
-streamlit run streamlit_app.py
 ```
+streamlit run streamlit_app.py
 
 ## Usage
 
