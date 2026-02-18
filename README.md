@@ -36,22 +36,30 @@ streamlit run streamlit_app.py
 
 ```
 .
-├── streamlit_app.py          # Main Streamlit application
-├── app.py                    # Legacy Flask app
-├── topsisalgorithm.py        # TOPSIS algorithm implementation
-├── TopsisAlgorithm.ipynb     # Jupyter notebook version
-├── requirements.txt          # Python dependencies
-├── .streamlit/
-│   └── config.toml          # Streamlit configuration
-├── uploads/                 # Uploaded files directory
-├── results/                 # Result files directory
-├── static/                  # Static files (CSS, JS)
-├── templates/               # HTML templates
-└── README.md               # This file
-```
+TOPSIS-Analysis/
+│
+├── README.md
+├── requirements.txt
+├── .gitignore
+│
+├── topsis.py              # Core TOPSIS algorithm
+├── streamlit_app.py       # Main Streamlit application
+├── app.py                 # (Optional) Flask version
+├── Topsis.ipynb           # Jupyter notebook demo
+│
+├── data/
+│   └── sample_data.csv    # Example dataset (rename data_topsis.csv)
+│
+├── static/                # (Only if using Flask)
+│   └── style.css
+│
+├── templates/             # (Only if using Flask)
+│   └── index.html
+│
+└── .streamlit/
+    └── config.toml        # Streamlit config (optional)
 
-Streamlit Link
-https://topsisassignment1-krish.streamlit.app/
+```
 
 ## Requirements
 
